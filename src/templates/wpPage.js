@@ -6,26 +6,26 @@ import {
   Stack,
 } from '@chakra-ui/react';
 
-const wpPost = ({data}) => {
-    const { wpPost } = data;
+const wpPage = ({data}) => {
+    const { wpPage } = data;
     return(
         <Container >
             <Stack padding={'0 20%'}>
                 <Heading as={"h1"}>
-                    {wpPost.title}
+                    {wpPage.title}
                 </Heading>
-                <div dangerouslySetInnerHTML={{__html: wpPost.content}} />
-                <Link to="/">Back to Blog</Link>
+                <div dangerouslySetInnerHTML={{__html: wpPage.content}} />
+                <Link to="/">Back to Home</Link>
             </Stack>
         </Container>
     )
 }
 
-export default wpPost;
+export default wpPage;
 
 export const query = graphql`
-    query SinglePost($id: String = "") {
-        wpPost(id: {eq: $id}) {
+    query SinglePage($id: String = "") {
+        wpPage(id: {eq: $id}) {
         __typename
         id
         uri

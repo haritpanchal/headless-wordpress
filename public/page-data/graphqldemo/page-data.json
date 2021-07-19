@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-wp-page-js","path":"/graphqldemo/","result":{"data":{"wpPage":{"__typename":"WpPage","id":"cG9zdDo1","uri":"/graphqldemo/","title":"GraphQL","content":null,"date":"2021-07-09T07:08:39"}},"pageContext":{"__typename":"WpPage","id":"cG9zdDo1","databaseId":5,"uri":"/graphqldemo/","title":"GraphQL"}},"staticQueryHashes":[]}
