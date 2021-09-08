@@ -7,7 +7,7 @@ module.exports = {
     {
       resolve: "gatsby-source-wordpress",
       options: {
-        url: "http://localhost/gatsby-demo/graphql",
+        url: `http://headlesswordpress.local/graphql`,
       },
     },
     "gatsby-plugin-gatsby-cloud",

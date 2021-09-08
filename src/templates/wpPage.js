@@ -7,6 +7,7 @@ import {
 } from '@chakra-ui/react';
 
 const wpPage = ({data}) => {
+    console.log(data);
     const { wpPage } = data;
     return(
         <Container >
@@ -28,7 +29,9 @@ export const query = graphql`
         wpPage(id: {eq: $id}) {
         __typename
         id
+        slug
         uri
+        status
         title
         content
         date

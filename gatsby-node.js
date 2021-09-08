@@ -43,7 +43,7 @@ exports.createPages = async ({actions, graphql, reporter}) => {
     allWpPost.nodes.map( post => {
         console.log(post);
         actions.createPage( {
-            path : `/post` + post.uri,
+            path : post.uri,
             component: temp,
             context : post,
         })

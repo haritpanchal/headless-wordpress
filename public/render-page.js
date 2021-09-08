@@ -10549,7 +10549,7 @@ const HomePage = () => {
       __html: excerpt
     }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: `/post` + uri,
+    to: uri,
     className: _index_css__WEBPACK_IMPORTED_MODULE_3__.nav_link,
     rel: "next"
   }, "Read More"))))));
@@ -22208,29 +22208,29 @@ function combine (array, callback) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allWpPost":{"nodes":[{"id":"cG9zdDoyOQ==","title":"Intro Lorem Ipsum","excerpt":"<p><!-- wp:heading --></p>\\n<h2>What is Lorem Ipsum?</h2>\\n<p><!-- /wp:heading --></p>\\n<p><!-- wp:paragraph --></p>\\n<p><strong>Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\\n<p><!-- /wp:paragraph --></p>\\n","uri":"/intro-lorem-ipsum/"},{"id":"cG9zdDoyNg==","title":"How to use lorem ipsum","excerpt":"<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#8216;lorem ipsum&#8217; will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\\n","uri":"/how-to-use-lorem-ipsum/"},{"id":"cG9zdDoxMA==","title":"About Lorem Ipsum","excerpt":"<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>\\n","uri":"/about-lorem-ipsum/"},{"id":"cG9zdDox","title":"History of Lorem Ipsum","excerpt":"<p>&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#8221;</p>\\n","uri":"/history-of-lorem-ipsum/"}]}}}');
+module.exports = JSON.parse('{"data":{"allWpPost":{"nodes":[{"id":"cG9zdDoxNw==","title":"Where can I get some","excerpt":"<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#8217;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#8217;t anything embarrassing hidden in the middle&hellip; <a class=\\"more-link\\" href=\\"/where-can-i-get-some/\\">Continue reading <span class=\\"screen-reader-text\\">Where can I get some</span></a></p>\\n","uri":"/where-can-i-get-some/"},{"id":"cG9zdDoxNA==","title":"Where does it come from","excerpt":"<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,&hellip; <a class=\\"more-link\\" href=\\"/where-does-it-come-from/\\">Continue reading <span class=\\"screen-reader-text\\">Where does it come from</span></a></p>\\n","uri":"/where-does-it-come-from/"},{"id":"cG9zdDoxMA==","title":"Why do we use it","excerpt":"<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#8216;Content here, content here&#8217;, making it look like readable English. Many&hellip; <a class=\\"more-link\\" href=\\"/why-do-we-use-it/\\">Continue reading <span class=\\"screen-reader-text\\">Why do we use it</span></a></p>\\n","uri":"/why-do-we-use-it/"},{"id":"cG9zdDox","title":"What is Lorem Ipsum","excerpt":"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#8217;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic&hellip; <a class=\\"more-link\\" href=\\"/what-is-lorem-ipsum/\\">Continue reading <span class=\\"screen-reader-text\\">What is Lorem Ipsum</span></a></p>\\n","uri":"/what-is-lorem-ipsum/"}]}}}');
 
 /***/ }),
 
 /***/ "react-dom/server":
-/*!************************************************************************************!*\
-  !*** external "/var/www/html/headless-wordpress/node_modules/react-dom/server.js" ***!
-  \************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** external "C:\\xampp\\htdocs\\headless-wordpress\\node_modules\\react-dom\\server.js" ***!
+  \********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/var/www/html/headless-wordpress/node_modules/react-dom/server.js");
+module.exports = require("C:\\xampp\\htdocs\\headless-wordpress\\node_modules\\react-dom\\server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!*******************************************************************************!*\
-  !*** external "/var/www/html/headless-wordpress/node_modules/react/index.js" ***!
-  \*******************************************************************************/
+/*!***************************************************************************************!*\
+  !*** external "C:\\xampp\\htdocs\\headless-wordpress\\node_modules\\react\\index.js" ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/var/www/html/headless-wordpress/node_modules/react/index.js");
+module.exports = require("C:\\xampp\\htdocs\\headless-wordpress\\node_modules\\react\\index.js");
 
 /***/ }),
 

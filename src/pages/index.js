@@ -47,7 +47,7 @@ const HomePage = () => {
               <Box key={id} p={5} shadow={'md'} borderWidth={'1px'}>
                   <Heading as={'h2'}>{title}</Heading>
                     <span dangerouslySetInnerHTML={{__html: excerpt}} />
-                    <Link to={`/post`+uri} className={containerStyles.nav_link} rel="next">Read More</Link>
+                    <Link to={uri} className={containerStyles.nav_link} rel="next">Read More</Link>
               </Box>
             ))}
         </Stack>
