@@ -5,18 +5,20 @@ import {
   Container,
   Stack,
 } from '@chakra-ui/react';
+import Header from "../components/Header/header";
 
 const wpPost = ({data}) => {
     const { wpPost } = data;
     return(
-        <Container >
-            <Stack padding={'0 20%'}>
+        <Container padding={'0 20%'}>
+            <Header/>
+            <div>
                 <Heading as={"h1"}>
                     {wpPost.title}
                 </Heading>
                 <div dangerouslySetInnerHTML={{__html: wpPost.content}} />
                 <Link to="/">Back to Blog</Link>
-            </Stack>
+            </div>
         </Container>
     )
 }

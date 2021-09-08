@@ -1,0 +1,24 @@
+.menu_link{
+    color: red;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.menuInLine{
+    display: flex;
+    list-style-type: none;
+ 
+}
+.siteName{
+    display: inline-block;
+    color: black;
+}
+.menu_link:hover{
+    color: blue;
+}
+.nav{
+    border: 1px solid;
+    padding: 20px;
+}
+.menuNav{
+    display: inline-block;
+}

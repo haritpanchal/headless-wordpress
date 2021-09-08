@@ -5,19 +5,21 @@ import {
   Container,
   Stack,
 } from '@chakra-ui/react';
+import Header from "../components/Header/header";
 
 const wpPage = ({data}) => {
     console.log(data);
     const { wpPage } = data;
     return(
-        <Container >
-            <Stack padding={'0 20%'}>
+        <Container padding={'0 20%'} >
+            <Header/>
+            <div >
                 <Heading as={"h1"}>
                     {wpPage.title}
                 </Heading>
                 <div dangerouslySetInnerHTML={{__html: wpPage.content}} />
                 <Link to="/">Back to Home</Link>
-            </Stack>
+            </div>
         </Container>
     )
 }

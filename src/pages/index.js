@@ -1,12 +1,15 @@
 import * as React from "react";
 import { useStaticQuery, graphql, Link} from 'gatsby';
+import Header from "../components/Header/header";
+import "../styles/style.css" 
+
 import {
   Box,
   Heading,
   Container,
   Stack,
 } from '@chakra-ui/react';
-import * as containerStyles from './index.css'
+import * as containerStyles from './index.module.css'
 
 const HomePage = () => {
 
@@ -24,10 +27,10 @@ const HomePage = () => {
   `);
 
   const { allWpPost } = data;
-
   return (
     <>
-      <Container maxW={'xl'}  padding={'0 20%'} >
+      <Container padding={'0 20%'} >
+          <Header/>
           <Heading
             as={'h1'}
             fontWeight={600}
